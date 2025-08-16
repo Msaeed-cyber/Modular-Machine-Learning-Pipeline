@@ -1,0 +1,6 @@
+{
+  "n_samples": 891,
+  "n_features_raw": 11,
+  "n_features_transformed": 1730,
+  "target_name": "Survived"
+}

@@ -1,0 +1,72 @@
+[2025-08-16 15:26:43,573] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 15:26:43,818] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 15:26:43,874] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 15:28:39,432] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 15:28:39,481] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 15:28:39,504] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 15:30:17,517] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 15:30:17,567] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 15:30:17,592] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 15:38:53,191] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 15:38:53,246] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 15:38:53,271] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 15:45:18,457] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 15:45:18,493] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 15:45:18,512] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 15:55:43,249] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 15:55:43,361] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 15:55:43,421] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 15:57:24,085] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 15:57:24,125] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 15:57:24,140] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 17:04:26,979] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 17:05:52,369] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 17:05:52,456] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 17:05:52,479] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 17:07:59,112] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 17:07:59,171] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 17:07:59,196] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 17:08:05,413] [INFO] training: logistic_regression: best score=0.7974, params={'C': 10.0, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'lbfgs'}
+[2025-08-16 17:08:05,414] [INFO] training: GridSearchCV for decision_tree with grid: {'criterion': ['gini', 'entropy'], 'max_depth': [None, 5, 10, 20], 'min_samples_split': [2, 5, 10]}
+[2025-08-16 17:08:08,772] [INFO] training: decision_tree: best score=0.8061, params={'criterion': 'gini', 'max_depth': None, 'min_samples_split': 5}
+[2025-08-16 17:08:08,772] [INFO] training: GridSearchCV for random_forest with grid: {'n_estimators': [100, 200], 'max_depth': [None, 5, 10, 20], 'min_samples_split': [2, 5, 10]}
+[2025-08-16 17:08:29,676] [INFO] training: random_forest: best score=0.8147, params={'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 200}
+[2025-08-16 17:08:29,761] [INFO] training: Training done. Best: random_forest with f1_macro=0.8147
+[2025-08-16 17:10:23,736] [INFO] evaluate: Evaluation done: {'accuracy': 0.7988826815642458, 'precision_macro': 0.8156834300451321, 'recall_macro': 0.7580368906455863, 'f1_macro': 0.7704474209176404}
+[2025-08-16 17:10:56,444] [INFO] preprocessing: Loaded dataset with shape (891, 12) from C:/Users/lenovo/Desktop/ml-pipeline/dataset/train.csv
+[2025-08-16 17:10:56,504] [INFO] preprocessing: Preprocessing complete. Train: (712, 1730), Test: (179, 1730)
+[2025-08-16 17:10:56,525] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 17:11:02,299] [INFO] training: logistic_regression: best score=0.7974, params={'C': 10.0, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'lbfgs'}
+[2025-08-16 17:11:02,300] [INFO] training: GridSearchCV for decision_tree with grid: {'criterion': ['gini', 'entropy'], 'max_depth': [None, 5, 10, 20], 'min_samples_split': [2, 5, 10]}
+[2025-08-16 17:11:05,679] [INFO] training: decision_tree: best score=0.8061, params={'criterion': 'gini', 'max_depth': 20, 'min_samples_split': 10}
+[2025-08-16 17:11:05,680] [INFO] training: GridSearchCV for random_forest with grid: {'n_estimators': [100, 200], 'max_depth': [None, 5, 10, 20], 'min_samples_split': [2, 5, 10]}
+[2025-08-16 17:11:27,979] [INFO] training: random_forest: best score=0.8136, params={'max_depth': None, 'min_samples_split': 10, 'n_estimators': 100}
+[2025-08-16 17:11:28,026] [INFO] training: Training done. Best: random_forest with f1_macro=0.8136
+[2025-08-16 17:13:25,653] [INFO] evaluate: Evaluation done: {'accuracy': 0.8044692737430168, 'precision_macro': 0.8074074074074074, 'recall_macro': 0.7733860342555994, 'f1_macro': 0.7832554921293894}
+[2025-08-16 17:16:10,987] [INFO] training: GridSearchCV for logistic_regression with grid: {'C': [0.1, 1.0, 10.0], 'penalty': ['l2'], 'solver': ['lbfgs'], 'max_iter': [1000]}
+[2025-08-16 17:16:16,964] [INFO] training: logistic_regression: best score=0.7974, params={'C': 10.0, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'lbfgs'}
+[2025-08-16 17:16:16,965] [INFO] training: GridSearchCV for decision_tree with grid: {'criterion': ['gini', 'entropy'], 'max_depth': [None, 5, 10, 20], 'min_samples_split': [2, 5, 10]}
+[2025-08-16 17:16:21,132] [INFO] training: decision_tree: best score=0.8056, params={'criterion': 'gini', 'max_depth': None, 'min_samples_split': 10}
+[2025-08-16 17:16:21,132] [INFO] training: GridSearchCV for random_forest with grid: {'n_estimators': [100, 200], 'max_depth': [None, 5, 10, 20], 'min_samples_split': [2, 5, 10]}
+[2025-08-16 17:16:42,625] [INFO] training: random_forest: best score=0.8113, params={'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}
+[2025-08-16 17:16:42,672] [INFO] training: Training done. Best: random_forest with f1_macro=0.8113
+[2025-08-16 17:16:46,726] [INFO] evaluate: Loaded artifacts for evaluation. X_test=(179, 1730), y_test=179
+[2025-08-16 17:16:46,735] [INFO] evaluate: Predictions computed for test set.
+[2025-08-16 17:16:47,206] [INFO] evaluate: Saved confusion matrix plot to C:\Users\lenovo\Desktop\ml-pipeline\plots\confusion_matrix.png
+[2025-08-16 17:16:47,446] [INFO] evaluate: Saved ROC curve to C:\Users\lenovo\Desktop\ml-pipeline\plots\roc_curve.png
+[2025-08-16 17:16:47,721] [INFO] evaluate: Saved PR curve to C:\Users\lenovo\Desktop\ml-pipeline\plots\precision_recall_curve.png
+[2025-08-16 17:16:47,721] [INFO] evaluate: Computing permutation importance (n_repeats=5)...
+[2025-08-16 17:17:47,866] [INFO] evaluate: Saved permutation feature importance to C:\Users\lenovo\Desktop\ml-pipeline\plots\feature_importance.png
+[2025-08-16 17:17:48,193] [INFO] evaluate: Saved model-based feature importance to C:\Users\lenovo\Desktop\ml-pipeline\plots\model_feature_importance.png
+[2025-08-16 17:17:48,196] [INFO] evaluate: Evaluation done: {'accuracy': 0.7988826815642458, 'precision_macro': 0.8156834300451321, 'recall_macro': 0.7580368906455863, 'f1_macro': 0.7704474209176404}
+[2025-08-16 17:25:11,394] [INFO] evaluate: Loaded artifacts for evaluation. X_test=(179, 1730), y_test=179
+[2025-08-16 17:25:11,403] [INFO] evaluate: Predictions computed for test set.
+[2025-08-16 17:25:11,879] [INFO] evaluate: Saved confusion matrix plot to C:\Users\lenovo\Desktop\ml-pipeline\plots\confusion_matrix.png
+[2025-08-16 17:25:12,120] [INFO] evaluate: Saved ROC curve to C:\Users\lenovo\Desktop\ml-pipeline\plots\roc_curve.png
+[2025-08-16 17:25:12,345] [INFO] evaluate: Saved PR curve to C:\Users\lenovo\Desktop\ml-pipeline\plots\precision_recall_curve.png
+[2025-08-16 17:25:12,345] [INFO] evaluate: Computing permutation importance (n_repeats=5)...
+[2025-08-16 17:26:17,596] [INFO] evaluate: Saved permutation feature importance to C:\Users\lenovo\Desktop\ml-pipeline\plots\feature_importance.png
+[2025-08-16 17:26:17,596] [INFO] evaluate: Top permutation importances (name, score): cat__Sex_male: 0.0927, cat__Sex_female: 0.0860, num__Pclass: 0.0369, num__Fare: 0.0268, num__Age: 0.0134, cat__Cabin_B96 B98: 0.0112, num__Parch: 0.0089, cat__Embarked_S: 0.0078, num__PassengerId: 0.0067, num__SibSp: 0.0056
+[2025-08-16 17:26:17,950] [INFO] evaluate: Saved model-based feature importance to C:\Users\lenovo\Desktop\ml-pipeline\plots\model_feature_importance.png
+[2025-08-16 17:26:17,950] [INFO] evaluate: Top model-based importances (name, score): cat__Sex_male: 0.1108, cat__Sex_female: 0.0960, num__Fare: 0.0804, num__Pclass: 0.0491, num__Age: 0.0479, cat__Cabin_B96 B98: 0.0420, num__PassengerId: 0.0241, num__SibSp: 0.0222, num__Parch: 0.0181, cat__Embarked_C: 0.0152
+[2025-08-16 17:26:17,952] [INFO] evaluate: Evaluation done: {'accuracy': 0.7988826815642458, 'precision_macro': 0.8156834300451321, 'recall_macro': 0.7580368906455863, 'f1_macro': 0.7704474209176404}

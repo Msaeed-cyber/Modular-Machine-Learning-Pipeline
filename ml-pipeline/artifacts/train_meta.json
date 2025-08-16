@@ -1,0 +1,9 @@
+{
+  "best_model": "random_forest",
+  "best_score_cv_f1_macro": 0.8113437705894452,
+  "best_params": {
+    "max_depth": 20,
+    "min_samples_split": 2,
+    "n_estimators": 100
+  }
+}
