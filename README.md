@@ -1,4 +1,4 @@
-# Modular ML Pipeline (Preprocessing → Training → Evaluation)
+# Modular ML Pipeline (Preprocessing → Training → Evaluation) Task 11
 
 A clean, reusable template for supervised **classification** using scikit-learn. It separates the workflow into modules and saves all artifacts for reuse.
 
